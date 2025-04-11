@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train AI Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="train-container">
+        <button id="pretrain-button">Pretrain Formal Chat</button>
+        <div>
+            <select id="data-type">
+                <option value="video">Video</option>
+                <option value="screenshot">Screenshot</option>
+                <option value="text">Text File</option>
+            </select>
+            <input type="text" id="data-content" placeholder="Paste URL for Video...">
+            <input type="file" id="file-upload" style="display: none;">
+            <button id="upload-button">Upload Data</button>
+        </div>
+    </div>
+    <script src="train.js"></script>
+</body>
+</html>
